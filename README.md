@@ -1,6 +1,6 @@
 # FACT
 
-To run the colab notebook you need to add in your own github api key to allow the notebook to download the rest of the github.
+To run the colab notebook, you need to add in your own github api key to allow the notebook to download the rest of the github.
 
 ### Open in Google Colab 🚀
 
