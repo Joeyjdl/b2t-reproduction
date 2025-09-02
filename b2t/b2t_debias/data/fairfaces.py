@@ -1,7 +1,7 @@
 """
-ADD LINKS
-+ say need to put the metatdata in the same folder as the images
+Data class based on dataset by Karkkainen, Kimmo and Joo, Jungseock in the paper FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation
 """
+
 import os
 import pandas as pd
 import numpy as np
