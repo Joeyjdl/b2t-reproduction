@@ -1,3 +1,7 @@
+"""
+Dataset class based on dataset by Karkkainen, Kimmo and Joo, Jungseock in the paper FairFace: Face Attribute Dataset for Balanced Race, Gender, and Age for Bias Measurement and Mitigation
+Allows for custom pseudo-bias for training
+"""
 import os
 import numpy as np
 import torch
