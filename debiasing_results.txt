@@ -1,0 +1,48 @@
+All models chosen by picking epoch with highest worst-group validation accuracy
+
+Waterbirds (Imagenet pretrained Resnet50 model, learning-rate=1e-5, weight-decay=1, epochs=300, momentum=0.9, optimizer=sgd):
+- DRO with GT:
+    * Seed=32 (HIGHEST TEST): 
+        Best worst group accuracy (test) at epoch 180: 88.47352024922118
+        Best average accuracy (test) at epoch 180: 92.85467725232999
+    * Seed=16: 
+        Best worst group accuracy (test) at epoch 143: 87.76053215077606
+        Best average accuracy (test) at epoch 143: 92.06075250258888
+    * Seed = 8 :
+        Best worst group accuracy (test) at epoch 173: 88.51441241685144
+        Best average accuracy (test) at epoch 173: 92.66482568173973
+- DRO with B2T guided bias labels:
+    * Seed=32: 
+        Best worst group accuracy (test) at epoch 50: 88.62928348909658
+        Best average accuracy (test) at epoch 50: 90.57645840524681
+    * Seed=16: 
+        Best worst group accuracy (test) at epoch 37: 88.78504672897196
+        Best average accuracy (test) at epoch 37: 89.47186744908527
+    * Seed = 8 (HIGHEST TEST):
+        Best worst group accuracy (test) at epoch 115: 88.51441241685144
+        Best average accuracy (test) at epoch 115: 91.99171556782879
+
+CelebA (Imagenet pretrained Resnet50 model, learning-rate=1e-5, weight-decay=0.1, epochs=50, momentum=0.9, optimizer=sgd):
+- DRO with GT:
+    * Seed=32: 
+        Best worst group accuracy (test) at epoch 20: 90.55555555555556
+        Best average accuracy (test) at epoch 20: 92.85141769361788
+    * Seed=16: 
+        Best worst group accuracy (test) at epoch 28: 88.88888888888889
+        Best average accuracy (test) at epoch 28: 93.27221721270413
+    * Seed = 8 (HIGHEST TEST):
+        Best worst group accuracy (test) at epoch 29: 91.11111111111111
+        Best average accuracy (test) at epoch 29: 93.23715058611361
+
+
+
+- DRO with B2T guided bias labels:
+    * Seed=32: 
+        Best worst group accuracy (test) at epoch 40: 90.0
+        Best average accuracy (test) at epoch 40: 92.94659853722072
+    * Seed=16 : 
+        Best worst group accuracy (test) at epoch 28: 90.0
+        Best average accuracy (test) at epoch 28: 93.00671275423305
+    * Seed = 8(HIGHEST TEST):
+        Best worst group accuracy (test) at epoch 28: 91.11111111111111
+        Best average accuracy (test) at epoch 28: 93.16200781484821
