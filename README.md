@@ -1,4 +1,4 @@
-# FACT
+# Revisiting B2T: Discovering and Mitigating Visual Biases through Keyword Explanations
 
 To run the colab notebook, you need to add in your own github api key to allow the notebook to download the rest of the github.
 
