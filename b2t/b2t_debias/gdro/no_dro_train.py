@@ -1,3 +1,6 @@
+"""
+ERM-based training file, which is primarily utilised for Fairfaces extension 
+"""
 import argparse
 import os
 import shutil
